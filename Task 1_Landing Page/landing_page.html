@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing page by Sultan Mulla</title>
+    <style type=""text/css">
+    *{padding: 0; margin:0; box-sizing: border-box;}
+    header{
+      width: 100%;
+      height: 100vh;
+      background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2));
+      /* background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.rawpixel.com%2Fprivate%2Fstatic%2Fimages%2Fwebsite%2F2022-05%2Frm-pf-s51-fon-02.jpg%3Fw%3D800%26dpr%3D1%26fit%3Ddefault%26crop%3Ddefault%26q%3D65%26vib%3D3%26con%3D3%26usm%3D15%26bg%3DF4F4F3%26ixlib%3Djs-2.2.1%26s%3D17de2b1e63b2f746d3cca8d284095513&tbnid=Y-qUIsgG05ftWM&vet=1&imgrefurl=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fbeach&docid=IBeW525ZLdr0cM&w=800&h=533&hl=en-US&source=sh%2Fx%2Fim%2F4'); */
+      background-image: url(pexels-pixabay-316093.jpg);
+      /* background-image: url(landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg); */
+      background-size: cover;
+      font-family: sans-serif;
+    }
+
+    nav{
+        width: 100%;
+        height: 80px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        /* background-color: black; */
+        /* color: black; */
+        /* margin-top: 20px; */
+        padding-top: 30px;
+        /* border-bottom: 2px solid black; */
+        /* border-radius: 15px; */
+    }
+    .logo{
+      font-size: 2em;
+      Letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .menu a:before{
+      content: '';
+      position: absolute;
+      top:0;
+      Left: 0;
+      width: 0%;
+      height: 100%;
+      border-bottom: 2px solid indianred;
+      transition: 0.4s linear;
+    }
+    .menu a:hover:before{
+      width: 90%;
+    }
+    .register a{
+      text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 23px;
+        background: indianred;
+        border-radius: 8px;
+        transition: 0.4s;
+    }
+    .register a:hover{
+      background: transparent;
+      border:1px solid indianred;
+    }
+     .h-txt{
+         max-width: 650px;
+         position: absolute;
+         top:50%;
+         Left: 50%;
+         transform: translate(-50%,-50%);
+         text-align: center;
+         color: white;
+     }
+     .h-txt span{
+          Letter-spacing: 5px;
+     }
+      .h-txt h1{
+          font-size: 3.5em;
+      }
+      .h-txt a{
+          text-decoration: none;
+          background: indianred;
+          color: white;
+          padding: 10px 20px;
+          Letter-spacing: 5px;
+          transition: 0.4s;
+      }
+      .h-txt a:hover{
+      background: transparent;
+      border:1px solid indianred;
+
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+              SKY TRAVELS
+        </div>
+        <div class="menu">
+             <a href="#">Home</a>
+             <a href="#">Hill stations</a>
+             <a href="#">Best offer's</a> 
+             <a href="#">Our Sites</a>
+             <a href="#">Contacts</a>
+        </div> 
+        <div class="register">
+          <a href="#">Register</a>
+        </div>
+      </nav>
+      <section class="h-txt">
+        <h2>Enjoy</h2>
+        <h1>World Tour Agency</h1>
+
+        <br>
+        <a href="#">Book your tickets now</a>
+      </section>
+    </header>
+  </body>
+</html>
